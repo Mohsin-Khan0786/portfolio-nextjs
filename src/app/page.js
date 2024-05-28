@@ -1,11 +1,17 @@
-import Image from 'next/image'
+import About from "@/components/ui/About";
+import Contact from "@/components/ui/Contact";
+import Portfolio from "@/components/ui/Portfolio";
+import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-   <>
-   <>
-   Hello Mohsin
-   </>
-   </>
-  )
-}
+    <>
+      <Home />
+      <About />
+      <Portfolio />
+      <Contact />
+    </>
+  );
+};
+
+export default Home;
