@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.title h4{
+    font-size: 40px;
+    font-weight: 200;
+    color: #fff;
+}
+.title h1{
+    font-size: 60px;
+    font-weight: 600;
+    color:  rgb(209, 147, 13);
+}
+.title span h3{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(209, 147, 13);
+}
+.title h3{
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
+.title .social{
+    display: flex;
+   
+   
+    margin-top: 20px;
+    gap: 20px;
+    
+    color:  rgb(209, 147, 13);
+}
+button{
+    background-color: rgb(209, 147, 13);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(209, 147, 13);
+}
+button a{
+    text-decoration: none;
+    color:inherit;
+}
+button :hover{
+    background-color: rgb(209, 147, 13);
+    color: white;
+    border: none;
+
+   
+}
+button :hover a{
+    text-decoration: none;
+    color:white;
+}
