@@ -1,11 +1,12 @@
-import Image from 'next/image'
+import React from "react";
+import Home from "@/components/ui/Home";
 
-export default function Home() {
+const Main = () => {
   return (
-   <>
-   <>
-   Hello Mohsin
-   </>
-   </>
-  )
-}
+    <>
+      <Home />
+    </>
+  );
+};
+
+export default Main;
