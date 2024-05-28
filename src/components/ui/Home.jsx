@@ -1,9 +1,14 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+import { toast } from "react-hot-toast";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  function handleClick() {
+    toast.success("Working");
+  }
 
-export default Home
+  return <button onClick={handleClick}>Click</button>;
+};
+
+export default Home;

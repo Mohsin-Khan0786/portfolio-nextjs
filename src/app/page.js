@@ -1,17 +1,12 @@
-import About from "@/components/ui/About";
-import Contact from "@/components/ui/Contact";
-import Portfolio from "@/components/ui/Portfolio";
 import React from "react";
+import Home from "@/components/ui/Home";
 
-const Home = () => {
+const Main = () => {
   return (
     <>
       <Home />
-      <About />
-      <Portfolio />
-      <Contact />
     </>
   );
 };
 
-export default Home;
+export default Main;
