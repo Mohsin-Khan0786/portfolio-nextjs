@@ -110,17 +110,22 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+  .title {
+    margin-top: -70px;
+  }
+
   .title h1 {
     font-size: 3rem;
   }
 
   .title h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 50px;
     margin-top: 10px;
   }
 
   .title p {
     margin-top: 10px;
+    font-size: 1.1rem;
   }
 }
