@@ -1,4 +1,5 @@
 
+import About from "@/components/ui/About";
 import Home from "@/components/ui/Home";
 import React from "react";
 
@@ -7,6 +8,7 @@ const Main = () => {
     <>
     {/* <Navbar/> */}
       <Home />
+      <About/>
     </>
   );
 };
