@@ -7,34 +7,29 @@ const Home = () => {
   return (
     <>
       <div className="main">
+        <div className="title">
+          <h5>Hello 👋, I an </h5>
+          <h1>Mohsin Khan</h1>
+          <h3>A Passionate Web Developer</h3>
+          <p>
+            I'm a Full-Stack Developer with 6 months of hands-on experience in
+            designing, developing, and implementing applications and solutions
+            using a range of technologies and programming languages.
+          </p>
+          <div className="social">
+            <button>My Resume</button>
+
+            <button>My GitHub</button>
+          </div>
+        </div>
+
         <div className="profile">
           <Image
-            src="/mohsin.png.png"
+            src={"/mohsin.png.png"}
             width={500}
             height={500}
             alt="Picture of the author"
           />
-        </div>
-        <div className="title">
-          <h5>Hello, </h5>
-          <h4>I am </h4>
-
-          <h1>Mohsin Khan</h1>
-          <span>
-            <h3>A Passionate Web Developer</h3>
-          </span>
-
-          <h3> IT Engineer</h3>
-
-          <div className="social">
-            <button>
-            <a href="">My LinkDin</a>
-            </button>
-           
-          <button>
-          <a href="">My GitHub</a>
-          </button>
-          </div>
         </div>
       </div>
     </>
