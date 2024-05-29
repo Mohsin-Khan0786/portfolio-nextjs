@@ -25,7 +25,7 @@ const Home = () => {
 
         <div className="profile">
           <Image
-            src="https://syedhashir-portfolio.netlify.app/assets/about-Pg4MNHWI.svg"
+            src={"/mohsin.png.png"}
             width={500}
             height={500}
             alt="Picture of the author"

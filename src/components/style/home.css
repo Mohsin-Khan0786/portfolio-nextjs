@@ -97,6 +97,9 @@ button {
 @media screen and (max-width: 800px) {
   .main {
     flex-direction: column;
+    margin-top: 150px;
+    gap: 100px;
+
   }
 
   .title {
@@ -105,11 +108,23 @@ button {
   }
 
   .profile {
-    display: none;
+    width: 100%;
+    height: 200px;
+  }
+
+  .profile img {
+    padding-left: 10px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 500px) {
+
+  .main{
+    margin-top: 130px;
+    gap: 90px;
+  }
+
   .title {
     margin-top: -70px;
   }
