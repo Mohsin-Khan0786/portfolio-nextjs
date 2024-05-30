@@ -8,7 +8,6 @@ const Main = () => {
     <>
     {/* <Navbar/> */}
       <Home />
-      <About/>
     </>
   );
 };

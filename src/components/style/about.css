@@ -1,97 +1,107 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-
-}
-.about-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.detail{
-    width:50% ;
-    padding: 30px;
-
-}
-.detail h3{
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: rgb(209, 147, 13);
-    line-height: 60px;
-
-}
-.detail p{
-    font-size: 1.18rem;
-    line-height: 30px;
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-}
-.about-pic{
-    width: 50%;
-    padding-top: 30px;
-    
-
-}
-.Get-btn button{
-    width: 190px;
-    background-color: rgb(209, 147, 13);
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    background: transparent;
-    border: 2px solid rgb(209, 147, 13);
-    font-size: 1.05rem;
-    font-family: "Times New Roman", Times, serif;
-    margin-left: 30px;
-}
-.Get-btn button:hover{
-    background-color: rgb(209, 147, 13);
-    color: white;
-    border: none;
-    cursor: pointer;
+.about-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 150px;
 }
 
-@media screen and (max-width:768px) {
-   
-   .about-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.detail {
+  width: 80%;
+  padding: 0px 30px;
+}
+
+.detail h3,
+.skills h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(209, 147, 13);
+  line-height: 80px;
+}
+
+.skills{
+  margin-top: 30px;
+}
+
+.skills_inner{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.detail p {
+  font-size: 1.18rem;
+  line-height: 32px;
+  color: white;
+  margin-top: 10px;
+}
+
+.about-pic {
+  width: 40%;
+  padding-top: 30px;
+}
+
+.Get-btn {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.Get-btn button {
+  width: 100%;
+  background-color: rgb(209, 147, 13);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid rgb(209, 147, 13);
+  font-size: 1.05rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 30px;
+}
+
+.Get-btn button:hover {
+  background-color: rgb(209, 147, 13);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 908px) {
+ .detail{
+  width: 100%;
+ }
+
+ .skills_inner{
+  gap: 30px;
+ }
+
+ .detail h3,.skills h3{
+  font-size: 2.2rem;
+  line-height: 50px;
+  font-weight: 300;
+ }
+
+ .detail h3{
+  text-align: left;
+ }
+
+
+ .Get-btn{
+  width: 80%;
+  margin-right: 50px;
+ }
+
+}
+
+@media screen and (max-width:500px) {
+
+
+  .Get-btn{
+    margin-right: 50px;
    }
-   .detail{
-    width:100%;
-    padding: 30px;
-   }
-   .detail h3{
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 5rem;
-    width: 100%;
-
-   
-   
-
-   }
-   .detail p{
-    font-size: 1.1rem;
-    line-height: 30px;
-   
-   }
-   .about-pic{
-    width: 100%;
-    margin-right: 7rem;
-   }
-   .Get-btn button{
-    width: 100%;
-    margin-left: 0rem;
-    margin-top: 3rem;
-
-   }
-
-
-    
 }

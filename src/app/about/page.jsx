@@ -1,6 +1,8 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
-import "@/components/style/about.css";
+import "@/components/style/about.css"
 import Link from "next/link";
 
 const About = () => {
@@ -8,7 +10,7 @@ const About = () => {
     <>
       <div className="about-main">
         <div className="detail">
-          <h3>Person behin pixels</h3>
+          <h3>Person behind pixels</h3>
           <div className="about_inner">
             <p>
               Hi, I'm Mohsin Khan, a creative and passionate web developer with
