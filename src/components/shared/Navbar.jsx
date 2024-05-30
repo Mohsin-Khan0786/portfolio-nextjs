@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import "@/components/style/navbar.css";
+import Link from "next/link";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -16,12 +17,23 @@ const Navbar = () => {
       <nav>
         <h1>Mohsin</h1>
         <ul className={menu ? "menu active" : "menu"}>
-          <li>Home</li>
-          <li>About</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+
+          <Link href="/about">
+            <li>About</li>
+            </Link>
+          <Link href='/'>
           <li>Portfolio</li>
-          <li>Contact</li>
+          </Link >
+         
+
+          <Link href="/contact">
+            <li>Contact</li>
+          </Link>
         </ul>
-        <IoIosMenu className="menu-icon" onClick={handleMenu} size={30}/>
+        <IoIosMenu className="menu-icon" onClick={handleMenu} size={30} />
       </nav>
     </div>
   );

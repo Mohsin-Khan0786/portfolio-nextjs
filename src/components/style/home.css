@@ -116,13 +116,16 @@ button {
     padding-left: 10px;
     width: 100%;
   }
+
+
 }
 
 @media screen and (max-width: 500px) {
 
   .main{
-    margin-top: 130px;
-    gap: 90px;
+    margin-top: 230px;
+    margin-bottom: 130px;
+    height: auto;
   }
 
   .title {
@@ -139,8 +142,13 @@ button {
     margin-top: 10px;
   }
 
+
   .title p {
     margin-top: 10px;
     font-size: 1.1rem;
   }
+
+  /* .profile{
+    display: none;
+  } */
 }

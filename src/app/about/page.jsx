@@ -1,6 +1,8 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
-import "@/components/style/about.css";
+import "@/components/style/about.css"
 import Link from "next/link";
 
 const About = () => {

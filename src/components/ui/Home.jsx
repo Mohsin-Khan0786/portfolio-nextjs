@@ -17,9 +17,14 @@ const Home = () => {
             using a range of technologies and programming languages.
           </p>
           <div className="social">
-            <button>My Resume</button>
+            <a href="./mohsin khAN cv pdf.pdf" download>
+            <button >My Resume</button>
+            </a>
+           
 
-            <button>My GitHub</button>
+       <a href="https://github.com/Mohsin-Khan0786" target="_blank" rel="noopener noreferrer">
+      <button>My GitHub</button>
+    </a>
           </div>
         </div>
 
